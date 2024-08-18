@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; 
+    color: #333;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    z-index: 1000;
+}
+
+.navbar.transparent {
+    background-color: transparent;
+}
+
+.navbar.scrolled {
+    background-color: #0c4da2; 
+}
+
+.navbar .logo {
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 80px;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.navbar ul li a:hover{
+    background-color: #c8a008;
+    border-radius: 5px;
+}
+
+.routes-section {
+    background-color: #f0f8ff;
+    padding: 50px 0;
+    margin: 20px;
+}
+
+.routes-section .route {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-left: 8px solid #3266aa;
+}
+
+.routes-section h3 {
+    margin-top: 0;
+    color: #3266aa;
+}
+.pdf-button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pdf-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3266aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.pdf-button:hover {
+    background-color: #0c4da2;
+}
+
+.pdf-button .arrow {
+    font-size: 18px;
+    margin-left: 10px;
+    transition: margin-left 0.3s ease;
+}
+
+.pdf-button:hover .arrow {
+    margin-left: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

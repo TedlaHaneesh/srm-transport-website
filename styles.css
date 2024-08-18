@@ -1,0 +1,193 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    z-index: 1000;
+}
+
+.navbar.transparent {
+    background-color: transparent;
+}
+
+.navbar.scrolled {
+    background-color: #0c4da2; 
+}
+
+.navbar .logo {
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 80px;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.navbar ul li a:hover{
+    background-color: #c8a008;
+    border-radius: 5px;
+}
+
+.hero {
+    background-image: url('images/Untitled\ design\ \(1\).png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-top: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.service {
+    background-color: #3266aa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.arrow {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.arrow:hover {
+    color: #3266aa;
+    background-color: white;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.hero2 {
+    background-image: url('images/srmview2.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 50vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0c4da2; 
+    text-align: center;
+}
+
+.hero2 .hero-content h1 {
+    font-size: 36px; 
+    margin: 0;
+    color: #fff;
+}
+
+.contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.contact-info {
+    background-color: transparent;
+    color: #3266aa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: #3266aa;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
